@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div style="padding: 10px; border: 1px solid #000000">
+        <div style="width: 100%; text-align: center">
+            <p style="font-weight: bold">Welcome to NodeJS</p>
+        </div>
+        <hr style="border-top: dotted 1px;"/>
+        <div style="width: 100%; display: inline-block;">
+            <div style="width: 50%; float: left;">
+                <p style="font-weight: bold">From:</p>
+                <span><%= systemEmail %></span>
+                <p><%= systemAddress %></p>
+                <p>SĐT: <%= systemPhone %></p>
+            </div>
+            <div style="width: 50%; float: right;">
+                <p style="font-weight: bold">Recipient :</p>
+                <span style="font-weight: bold"><%= customerName %></span>
+                <p style="font-weight: bold"><%= customerAddress %></p>
+                <p style="font-weight: bold">SĐT: <%= customerPhone %></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

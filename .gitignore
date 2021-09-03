@@ -1,0 +1,17 @@
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.idea/
+dist/
+*.pem
+pdf/**.pdf
+*.log
+*.log.gz
+*-audit.json
+pdf/
+/.051912152826b0ae7f4c23bbbfeaca49dd64a795-audit.json
+zip/
+temp/
